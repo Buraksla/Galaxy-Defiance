@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://xsvnn5wlse8o"]
+
+[ext_resource type="PackedScene" uid="uid://b1ss3qc4autg5" path="res://scane/ship.tscn" id="1_qhasb"]
+
+[node name="Word" type="Node2D"]
+
+[node name="Ship" parent="." instance=ExtResource("1_qhasb")]
+position = Vector2(80, 216)
